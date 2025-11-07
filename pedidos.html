@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedidos - Duc D Pizza</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pedidos">
+  <!-- Cabeçalho com navegação -->
+  <header>
+    <img src="logo-ducdpiza.png" alt="Logo Duc D Pizza" class="logo" style="height:80px;" />
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cardapio.html">Cardápio</a>
+      <a href="pedidos.html">Pedidos</a>
+      <a href="rodizios.html">Rodízios</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Seção de pedidos -->
+  <section class="menu">
+    <h2>🛒 Faça seu Pedido</h2>
+    <p>Escolha seus sabores favoritos e envie seu pedido pelo WhatsApp ou pelo formulário abaixo.</p>
+
+    <div class="pedido-whatsapp">
+      <a href="https://wa.me/5541999999999" target="_blank" class="order-button">📱 Pedir pelo WhatsApp</a>
+    </div>
+
+    <div class="pedido-formulario">
+      <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="pedido">Seu Pedido:</label>
+        <textarea id="pedido" name="pedido" rows="5" required></textarea>
+
+        <button type="submit" class="order-button">📤 Enviar Pedido</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Duc D Pizza. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
 
