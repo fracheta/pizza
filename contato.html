@@ -1,43 +1,57 @@
-<!-- Seção Contato - Duc D Pizza -->
-<section id="contato" style="background-color:#fff8f0; padding:60px 20px; font-family:'Segoe UI', sans-serif; border-top:4px solid #d62828;">
-  <div style="text-align:center; margin-bottom:30px;">
-    <a href="#inicio" style="text-decoration:none; margin-right:10px;">
-      <button style="padding:10px 20px; background-color:#d62828; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
-        ⬅ Início
-      </button>
-    </a>
-    <a href="#cardapio" style="text-decoration:none;">
-      <button style="padding:10px 20px; background-color:#d62828; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
-        🍕 Cardápio
-      </button>
-    </a>
-  </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato - Duc D Pizza</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="contato">
+  <header>
+    <img src="logo-ducdpiza.png" alt="Logo Duc D Pizza" class="logo" style="height:80px;" />
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cardapio.html">Cardápio</a>
+      <a href="pedidos.html">Pedidos</a>
+      <a href="rodizios.html">Rodízios</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
 
-  <h2 style="text-align:center; color:#d62828; font-size:32px; margin-bottom:10px;">Entre em Contato</h2>
-  <p style="text-align:center; color:#5c3a21; font-size:18px; margin-bottom:40px;">Fale conosco para pedidos, dúvidas ou sugestões!</p>
+  <section style="background-color:#fff8f0; padding:60px 20px; font-family:'Segoe UI', sans-serif; border-top:4px solid #d62828;">
+    <h2 style="text-align:center; color:#d62828; font-size:32px; margin-bottom:10px;">Entre em Contato</h2>
+    <p style="text-align:center; color:#5c3a21; font-size:18px; margin-bottom:40px;">Fale conosco para pedidos, dúvidas ou sugestões!</p>
 
-  <div style="max-width:600px; margin:0 auto; background-color:#fff; padding:30px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
-    <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
-      <label for="nome" style="display:block; margin-bottom:8px; color:#5c3a21;">Nome:</label>
-      <input type="text" id="nome" name="nome" required style="width:100%; padding:12px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px;">
+    <div style="max-width:600px; margin:0 auto; background-color:#fff; padding:30px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+      <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+        <label for="nome" style="display:block; margin-bottom:8px; color:#5c3a21;">Nome:</label>
+        <input type="text" id="nome" name="nome" required style="width:100%; padding:12px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px;">
 
-      <label for="email" style="display:block; margin-bottom:8px; color:#5c3a21;">Email:</label>
-      <input type="email" id="email" name="email" required style="width:100%; padding:12px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px;">
+        <label for="email" style="display:block; margin-bottom:8px; color:#5c3a21;">Email:</label>
+        <input type="email" id="email" name="email" required style="width:100%; padding:12px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px;">
 
-      <label for="mensagem" style="display:block; margin-bottom:8px; color:#5c3a21;">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" rows="5" required style="width:100%; padding:12px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px;"></textarea>
+        <label for="mensagem" style="display:block; margin-bottom:8px; color:#5c3a21;">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required style="width:100%; padding:12px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px;"></textarea>
 
-      <button type="submit" style="width:100%; padding:14px; background-color:#d62828; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
-        Enviar Mensagem
-      </button>
-    </form>
-
-    <div style="text-align:center; margin-top:30px;">
-      <a href="https://wa.me/5541999999999" target="_blank" style="text-decoration:none;">
-        <button style="padding:12px 20px; background-color:#25D366; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
-          📱 Pedir pelo WhatsApp
+        <button type="submit" style="width:100%; padding:14px; background-color:#d62828; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
+          Enviar Mensagem
         </button>
-      </a>
+      </form>
+
+      <div style="text-align:center; margin-top:30px;">
+        <a href="https://wa.me/5541999999999" target="_blank" style="text-decoration:none;">
+          <button style="padding:12px 20px; background-color:#25D366; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
+            📱 Pedir pelo WhatsApp
+          </button>
+        </a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Duc D Pizza. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
